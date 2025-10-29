@@ -43,9 +43,7 @@ def main():
             print(F"{key}: {value}")
         print("--------------")
         choice = input("choose an item (press q to quit): ")
-        if not choice in My_Menu.keys():
-            print("invalid entry")
-        elif choice in ["1", "2", "3", "4", "5", "6", "7", "8"]:
+        if choice in ["1", "2", "3", "4", "5", "6", "7", "8"]:
             print("hi")
             item_name = Number_to_word(choice)
             cart.append(item_name)
@@ -54,6 +52,8 @@ def main():
         elif choice.upper() == "Q":
             print(f"${total_cost}")
             leave = True
+        else:
+            print("something on the menu")
         
 
 if __name__ == "__main__":
