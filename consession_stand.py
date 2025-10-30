@@ -25,7 +25,7 @@ def main():
     My_Menu = {"1: pizza": 5.50,
     "2: nachos": 4.75,
     "3: popcorn": 6.25,
-    "4: fires": 3.50,
+    "4: fries": 3.50,
     "5: chips": 2.00,
     "6: pretzel": 3.50,
     "7: soda": 2.75,
